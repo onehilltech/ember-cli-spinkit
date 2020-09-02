@@ -1,9 +1,11 @@
 import SkComponent from "./-sk-component";
+import { isArray } from 'lodash';
 
 export default class SkPartsComponent extends SkComponent {
   defaultPartsCount = 5;
 
   get parts () {
-    return new Array (this.args.parts || this.defaultPartsCount);
+    let parts = this.args.parts || this.defaultPartsCount;
+    return isArray (parts) ? parts : new Array (parts);
   }
 }

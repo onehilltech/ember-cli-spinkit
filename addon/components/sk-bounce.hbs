@@ -1,5 +1,5 @@
 <div class="sk-bounce" {{custom-property "--sk-size" @size}} {{custom-property "--sk-color" @color}}>
   {{#each this.parts as |part|}}
-    <div class="sk-bounce-dot"></div>
+    <div class="sk-bounce-dot" {{custom-property "--sk-size" part.size}} {{custom-property "--sk-color" part.color}}></div>
   {{/each}}
 </div>
