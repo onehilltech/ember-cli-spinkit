@@ -1,6 +1,6 @@
 {
   "name": "@onehilltech/ember-cli-spinkit",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "An ember-cli addon for SpinKit.",
   "keywords": [
     "ember-addon",
