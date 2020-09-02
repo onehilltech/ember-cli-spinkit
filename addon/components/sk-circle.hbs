@@ -1,4 +1,4 @@
-<div class="sk-circle">
+<div class="sk-circle" {{custom-property "--sk-size" @size}} {{custom-property "--sk-color" @color}}>
   {{#each this.parts as |part|}}
     <div class="sk-circle-dot"></div>
   {{/each}}

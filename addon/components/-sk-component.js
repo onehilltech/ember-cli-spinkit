@@ -1,6 +1,6 @@
-import SkComponent from "./-sk-component";
+import Component from '@glimmer/component';
 
-export default class SkPartsComponent extends SkComponent {
+export default class SkComponent extends Component {
   defaultPartsCount = 5;
 
   get parts () {

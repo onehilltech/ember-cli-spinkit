@@ -1,4 +1,4 @@
-<div class="sk-flow">
+<div class="sk-flow" {{custom-property "--sk-size" @size}} {{custom-property "--sk-color" @color}}>
   {{#each this.parts as |part|}}
     <div class="sk-flow-dot"></div>
   {{/each}}

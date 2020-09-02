@@ -1,4 +1,4 @@
-<div class="sk-grid">
+<div class="sk-grid" {{custom-property "--sk-size" @size}} {{custom-property "--sk-color" @color}}>
   {{#each this.parts as |part|}}
     <div class="sk-grid-cube"></div>
   {{/each}}
