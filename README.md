@@ -1,7 +1,7 @@
 ember-cli-spinkit
 ==============================================================================
 
-[Short description of the addon.]
+an ember-cli addon for [SpinKit](https://tobiasahlin.com/spinkit/)
 
 
 Compatibility
@@ -20,12 +20,6 @@ ember install ember-cli-spinkit
 ```
 
 
-Usage
-------------------------------------------------------------------------------
-
-[Longer description of how to use the addon in apps.]
-
-
 Contributing
 ------------------------------------------------------------------------------
 
@@ -35,4 +29,4 @@ See the [Contributing](CONTRIBUTING.md) guide for details.
 License
 ------------------------------------------------------------------------------
 
-This project is licensed under the [MIT License](LICENSE.md).
+This project is licensed under the [Apache 2.0](LICENSE.md).
