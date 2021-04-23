@@ -16,7 +16,7 @@ Installation
 ------------------------------------------------------------------------------
 
 ```
-ember install ember-cli-spinkit
+ember install @onehilltech/ember-cli-spinkit
 ```
 
 
