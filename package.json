@@ -6,9 +6,9 @@
     "ember-addon",
     "spinkit"
   ],
-  "repository": "onehilltech/ember-cli-spinkit",
+  "repository": "github:onehilltech/ember-cli-spinkit",
   "license": "Apache-2.0",
-  "author": "",
+  "author": "One Hill Technologies",
   "directories": {
     "doc": "doc",
     "test": "tests"
