@@ -1,5 +1,5 @@
 import SkComponent from "./-sk-component";
-import { isArray } from 'lodash';
+import { isArray } from 'lodash-es';
 
 export default class SkPartsComponent extends SkComponent {
   defaultPartsCount = 5;
