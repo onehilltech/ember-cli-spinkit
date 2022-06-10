@@ -26,7 +26,6 @@
     "ember-cli-babel": "^7.17.2",
     "ember-cli-blueprint-helpers": "^0.4.7",
     "ember-cli-htmlbars": "^4.2.2",
-    "lodash-es": "^4.17.21",
     "spinkit": "^2.0.1"
   },
   "devDependencies": {
